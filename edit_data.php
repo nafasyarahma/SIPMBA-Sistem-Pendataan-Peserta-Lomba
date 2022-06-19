@@ -69,7 +69,7 @@ $id = $_GET['id'];
 
                     <div class="card-footer">
                         <input type="submit" name="Edit" value="Edit" class="btn btn-info">
-                        <a href="data.php" title="Kembali" class="btn btn-secondary">Batal</a>
+                        <a href="index.php" title="Kembali" class="btn btn-secondary">Batal</a>
                     </div>
             </form>
         </div>
@@ -92,7 +92,7 @@ if(isset($_POST['Edit'])){
     
     $update = mysqli_query($koneksi,"update peserta set nama='$nama', asal_instansi='$asal_instansi', cabang_lomba='$cabang_lomba', no_hp='$no_hp' where id='$id'");
     if($update){
-        header('location:data.php');
+        header('location:index.php');
     }else{
         echo 'gagal';
         header('location:gagal.php');
