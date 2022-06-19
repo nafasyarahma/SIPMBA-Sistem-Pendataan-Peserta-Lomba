@@ -1,4 +1,4 @@
-# Anggota Kelompok
+# Anggota Kelompok :
   1. Dita Faradila (2017051002)
   2. Nafasya Rahma Safitra (2017051023)
 
