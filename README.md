@@ -17,4 +17,4 @@
   - membuat database
 
 # Link Hosting :
-  http://sipmba.epizy.com/data.php 
+  http://sipmba.epizy.com
