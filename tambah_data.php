@@ -60,7 +60,7 @@
 
                     <div class="card-footer">
                         <input type="submit" name="Simpan" value="Simpan" class="btn btn-info">
-                        <a href="data.php" title="Kembali" class="btn btn-secondary">Batal</a>
+                        <a href="index.php" title="Kembali" class="btn btn-secondary">Batal</a>
 		            </div>
             </form>
         </div>
