@@ -81,7 +81,7 @@ if(isset($_POST['Simpan'])){
     $tambah=mysqli_query($koneksi, "insert into peserta values('','$nama','$asal_instansi','$cabang_lomba','$no_hp')");
 
     if($tambah){
-        header('location:data.php');
+        header('location:index.php');
     }else{
         header('location:gagal.php');
     }
